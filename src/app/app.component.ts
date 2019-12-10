@@ -7,8 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 val:string =""
+val2:number=0
 fruit=[]
 additems(){
-   this.fruit.push(this.val)
+   this.fruit.push(this.val+"   "+this.val2+"Rs")
 }
 }
