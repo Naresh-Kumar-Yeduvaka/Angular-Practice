@@ -1,5 +1,6 @@
-<h1>{{val}}</h1>
-<h4>{{msg}}</h4>
-<!-- <label for="naresh">Enter a Value</label><input type="number" value="" id="naresh"> -->
-<button (click)="Addition()">Increse Value By 1</button>
-<button (click)="Subtract()">Decrese Value By 1</button>
+<h1>Displaying Fruits</h1>
+  Enter Fruit Name: <input type="text" [(ngModel)]="val" onkeyup=""><br>
+<button (click)="add()">Add Fruit to List</button>
+<ul>
+    <li *ngFor="let n of fruit">{{n}}</li>
+</ul>
