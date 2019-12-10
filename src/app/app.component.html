@@ -1,6 +1,6 @@
 <h1>Displaying Fruits</h1>
-  Enter Fruit Name: <input type="text" [(ngModel)]="val" onkeyup=""><br>
-<button (click)="add()">Add Fruit to List</button>
+  Enter Fruit Name: <input type="text" [(ngModel)]="val"><br>
+<button (click)="additems()">Add Fruit to List</button>
 <ul>
     <li *ngFor="let n of fruit">{{n}}</li>
 </ul>

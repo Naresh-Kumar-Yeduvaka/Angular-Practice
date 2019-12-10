@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 val:string =""
 fruit=[]
-add(){
+additems(){
    this.fruit.push(this.val)
 }
 }
