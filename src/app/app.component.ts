@@ -9,12 +9,6 @@ export class AppComponent {
 val:string =""
 fruit=[]
 add(){
-  // this.status=!this.status
-  this.fruit.push(this.val)
+   this.fruit.push(this.val)
 }
-
-//    val
-//  fruit=["hello"];
-// additems(){
-//  this.fruit.push(this.val);
 }
